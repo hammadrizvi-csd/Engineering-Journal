@@ -1,0 +1,84 @@
+# 🗄️ DBMS – Unit 1
+
+## Introduction to Database Management System
+
+### 1️⃣ Data, Information & Database
+
+- **🔹 Data**
+  - Raw facts
+  - No meaning on its own
+  - Example: `101`, `Rahul`, `CSE`
+- **🔹 Information**
+  - Processed data
+  - Meaningful form
+  - Example: *Rahul is a CSE student with roll no. 101.*
+- **🔹 Database**
+  - Organized collection of logically related data
+  - Stored electronically
+  - Example: Student records in college DB
+
+### 2️⃣ DBMS (Database Management System)
+- DBMS ek software system hai jo database ko:
+  - Store
+  - Retrieve
+  - Update
+  - Delete
+- securely manage karta hai.
+- **Examples:**
+  - MySQL
+  - Oracle
+  - SQL Server
+- **Functions of DBMS:**
+  - Data storage
+  - Data retrieval
+  - Data security
+  - Data integrity
+
+### 3️⃣ Database System Components
+- Database
+- DBMS software
+- Application programs
+-
+- Users
+-
+- DBA (Database Administrator)
+ 
+### 4️⃣ Three-Level Architecture (Data Abstraction)
+1. **Physical Level (Internal Level)**
+   
+   Data ka actual storage, file structure, indexing.
+2. **Conceptual Level (Logical Level)**
+   
+   Database ka logical structure, tables, attributes, relationships.
+3. **External Level (View Level)**
+   
+   User-specific views, data hiding.
+> 👉 Purpose: Data abstraction & security 
+ 
+### 5️⃣ Data Independence 
+- Ability to change schema at one level without affecting other levels.
+- Types:
+    - Physical Data Independence: Change storage structure without affecting logical schema.
+    - Logical Data Independence: Change logical schema without affecting user views.
+ 
+n6️⃣ ER Model (Entity–Relationship Model)
+-
+a high-level conceptual data model.
+-
+the components:
+-
+bullet points:
+-
+details below:
+-
+bullet points:
+-
+details below:
+-
+bullet points:
+-
+details below:
+-
+bullet points:
+-
+details below:
