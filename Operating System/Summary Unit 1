@@ -1,0 +1,88 @@
+# 💻 Operating System – Unit 1
+
+## Introduction to Operating System
+
+### 1️⃣ Operating System (OS)
+
+OS ek system software hai jo:
+- User aur hardware ke beech interface provide karta hai
+- Hardware resources manage karta hai
+
+**Examples:**
+- Windows
+- Linux
+- macOS
+
+### 2️⃣ Objectives of OS
+- Convenience
+- Efficiency
+- Resource management
+
+### 3️⃣ Types of Operating Systems
+1. **Batch OS**
+   - Jobs executed in batches
+   - No user interaction
+2. **Multiprogramming OS**
+   - Multiple programs in memory
+   - CPU utilization increase
+3. **Time Sharing OS**
+   - CPU time divided among users
+   - Fast response
+4. **Real-Time OS**
+   - Strict timing constraints
+ 
+   - Used in robotics, traffic control
+
+### 4️⃣ OS Services
+- Process management
+- Memory management
+ 
+- File management
+ 
+- I/O management
+ 
+- Security
+ 
+ 
+### 5️⃣ Program vs Process
+description:
+| Program | Process |
+|---------|---------|
+| Passive | Active |
+| Stored on disk | Loaded in RAM |
+| No resources | Uses CPU, memory |
+ 
+### 6️⃣ Process States:
+- New
+ 
+- Ready
+ 
+- Running
+ 
+- Waiting (Blocked)
+ 
+- Terminated
+ 
+ 
+### 7️⃣ Process Control Block (PCB)
+a data structure jo process information store karta hai.
+**Contents:**
+p-	Process ID,
+p-	Process state,
+p-	Program counter,
+p-	CPU registers,
+p-	Memory info,
+p-	I/O status.
+ 
+ 
+### 8️⃣ Threads & Multithreading:
+a) Thread: Lightweight process, shares memory of process.
+b) Process vs Thread:
+description:
+description:
+description:
+description:
+description:
+description:
+description:
+description:
