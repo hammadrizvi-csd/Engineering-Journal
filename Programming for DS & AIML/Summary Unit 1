@@ -1,0 +1,278 @@
+🐍 PDS – Unit 1
+===============
+
+Python Programming Fundamentals (Markdown Notes)
+------------------------------------------------
+
+1️⃣ Introduction to Python
+--------------------------
+
+Python ek **high-level, interpreted programming language** hai jo easy syntax aur readability ke liye famous hai.
+
+### 🔹 Key Features of Python
+
+*   **Interpreted Language** → Line by line execution
+    
+*   **Dynamically Typed** → Data type declare karne ki zarurat nahi
+    
+*   **High-Level Language** → English-like syntax
+    
+*   **Easy to Learn & Use**
+    
+*   **Platform Independent**
+    
+
+2️⃣ Variables in Python
+-----------------------
+
+Variable ek **named memory location** hota hai jo data store karta hai.
+
+### Syntax
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   variable_name = value   `
+
+### Rules for Naming Variables
+
+*   Letter ya underscore se start hona chahiye
+    
+*   Number se start nahi ho sakta
+    
+*   Case-sensitive (age ≠ Age)
+    
+*   Special symbols allowed nahi (@, $, % ❌)
+    
+
+3️⃣ Standard Data Types
+-----------------------
+
+### 🔹 Numeric Types
+
+*   int → Integer
+    
+*   float → Decimal
+    
+*   complex → Imaginary numbers
+    
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   x = 10  y = 3.5  z = 2+3j   `
+
+### 🔹 Sequence Types
+
+*   str → String
+    
+*   list
+    
+*   tuple
+    
+
+### 🔹 Boolean
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   True, False   `
+
+### 🔹 Dictionary
+
+*   Key–Value pair
+    
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   student = {"name": "Junior", "roll": 250}   `
+
+4️⃣ Operators & Expressions
+---------------------------
+
+### Types of Operators
+
+#### Arithmetic
+
+\+ - \* / % //
+
+#### Relational
+
+\== != > < >= <=
+
+#### Logical
+
+and or not
+
+#### Assignment
+
+\= += -= \*=
+
+5️⃣ Control Structures
+----------------------
+
+Control structures program ke **flow of execution** ko control karte hain.
+
+### 🔹 Conditional Statements
+
+#### if
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   if marks > 40:      print("Pass")   `
+
+#### if-else
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   if marks >= 50:      print("Pass")  else:      print("Fail")   `
+
+#### if-elif-else
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   if marks >= 80:      print("Grade A")  elif marks >= 60:      print("Grade B")  else:      print("Grade C")   `
+
+### 🔹 Looping Statements
+
+#### for loop
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   for i in range(5):      print(i)   `
+
+#### while loop
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   count = 0  while count < 3:      print(count)      count += 1   `
+
+### 🔹 Jump Statements
+
+*   break → loop terminate
+    
+*   continue → next iteration
+    
+*   pass → placeholder (does nothing)
+    
+
+6️⃣ Strings in Python
+---------------------
+
+### Key Properties
+
+*   **Immutable**
+    
+*   Single ' ' or Double " " quotes
+    
+*   Indexing & slicing supported
+    
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   text = "Python"   `
+
+### Indexing
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   text[0]      # P  text[-1]     # n   `
+
+### Slicing
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   text[0:4]    # Pyth   `
+
+### Common String Methods
+
+MethodUselen()Lengthlower()Lowercaseupper()Uppercasefind()Find substring
+
+7️⃣ File Handling in Python
+---------------------------
+
+Python file handling allow karta hai **data ko disk par store & retrieve** karna.
+
+### Opening a File
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   file = open("data.txt", "r")   `
+
+### File Modes
+
+*   r → Read
+    
+*   w → Write
+    
+*   a → Append
+    
+
+### Common Methods
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   file.read()  file.readline()  file.write("Hello")  file.close()   `
+
+8️⃣ List and Dictionary
+-----------------------
+
+### 🔹 List
+
+*   Ordered
+    
+*   Mutable
+    
+*   Square brackets \[ \]
+    
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   fruits = ["apple", "banana", "cherry"]  fruits.append("orange")   `
+
+### 🔹 Dictionary
+
+*   Key–Value pair
+    
+*   Curly braces { }
+    
+*   Keys must be unique
+    
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   student = {      "name": "Junior",      "roll": 250,      "branch": "AI"  }  print(student["name"])   `
+
+9️⃣ Functions
+-------------
+
+Function ek **reusable block of code** hota hai jo specific task perform karta hai.
+
+### Syntax
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   def function_name(parameters):      statements      return value   `
+
+### Example
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   def calculate_area(radius):      pi = 3.14      return pi * radius * radius  print(calculate_area(5))   `
+
+🔟 OOP Concepts in Python
+-------------------------
+
+### 🔹 Class
+
+*   User-defined blueprint
+    
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   class Student:      pass   `
+
+### 🔹 Object
+
+*   Instance of class
+    
+
+### 🔹 \_\_init\_\_() Method
+
+*   Constructor
+    
+*   Automatically call hota hai
+    
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   class Student:      def __init__(self, name, marks):          self.name = name          self.marks = marks   `
+
+### 🔹 self Keyword
+
+*   Current object ka reference
+    
+*   Java ke this jaisa
+    
+
+1️⃣1️⃣ Inheritance (OOPs Advanced)
+----------------------------------
+
+Inheritance ek class ko dusri class ki properties acquire karne deta hai.
+
+### Syntax
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   class Child(Parent):      pass   `
+
+### Types
+
+*   Single Inheritance
+    
+*   Multiple Inheritance
+    
+*   Multilevel Inheritance
+    
+
+### Example
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   class Animal:      def speak(self):          print("Animal is speaking")  class Dog(Animal):      def bark(self):          print("Dog barks")  d = Dog()  d.bark()  d.speak()   `
+
+✅ PDS Unit 1 Completed ✔️
+-------------------------
