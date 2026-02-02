@@ -1,0 +1,292 @@
+📘 Unit 1 – Object Oriented Programming with Java
+=================================================
+
+1️⃣ Introduction to OOPs
+------------------------
+
+Object Oriented Programming (OOP) ek programming paradigm hai jo **real-world entities** ko program ke form me represent karta hai using **objects** and **classes**.
+
+### Procedural vs Object Oriented
+
+ProceduralObject OrientedFocus on functions & algorithmsFocus on data & objectsData less secureData secure (Encapsulation)Top-Down approachBottom-Up approachLess reusableHighly reusable (Inheritance, Polymorphism)
+
+2️⃣ Class and Object
+--------------------
+
+### 🔹 Class
+
+*   Class ek **user-defined blueprint** hota hai
+    
+*   Variables (data members) + methods ka collection
+    
+*   Memory tab tak nahi leta jab tak object create na ho
+    
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   class Student {      int id;      String name;      void study() {          System.out.println(name + " is studying");      }  }   `
+
+### 🔹 Object
+
+*   Object = **instance of a class**
+    
+*   Heap memory me allocate hota hai
+    
+
+**Characteristics of Object**
+
+*   **State** → variables
+    
+*   **Behavior** → methods
+    
+*   **Identity** → unique memory address
+    
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   Student s1 = new Student();  s1.name = "Rahul";  s1.study();   `
+
+3️⃣ Pillars of OOPs
+-------------------
+
+### 1\. Encapsulation (Data Hiding)
+
+*   Data + methods ko ek unit me wrap karna
+    
+*   Private variables + public getter/setter
+    
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   class Account {      private double balance;      public void deposit(double amount) {          balance += amount;      }  }   `
+
+### 2\. Abstraction
+
+*   Sirf **essential details** show karna
+    
+*   Implementation hide karna
+    
+*   Achieved using **abstract class** & **interfaces**
+    
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   abstract class Vehicle {      abstract void start();  }   `
+
+### 3\. Inheritance (Reusability)
+
+*   Ek class dusri class ke properties acquire karti hai
+    
+*   extends keyword
+    
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   class Animal {      void eat() {}  }  class Dog extends Animal {      void bark() {}  }   `
+
+### 4\. Polymorphism (One Name, Many Forms)
+
+*   Same method different behavior
+    
+
+#### Types:
+
+*   **Method Overloading** (Compile-time)
+    
+*   **Method Overriding** (Run-time)
+    
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   class Calculator {      int add(int a, int b) { return a+b; }      double add(double a, double b) { return a+b; }  }   `
+
+4️⃣ Java Basics
+---------------
+
+### Structure of Java Program
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   public class FirstProgram {      public static void main(String[] args) {          System.out.println("Hello Java");      }  }   `
+
+### Keywords Explanation
+
+*   public → accessible everywhere
+    
+*   static → object ke bina call
+    
+*   void → no return value
+    
+*   String\[\] args → command line arguments
+    
+*   JVM → program execution control
+    
+
+5️⃣ Data Types
+--------------
+
+### Primitive Data Types
+
+TypeSizebyte1 byteshort2 bytesint4 byteslong8 bytesfloat4 bytesdouble8 byteschar2 bytesboolean1 bit
+
+### Non-Primitive
+
+*   String
+    
+*   Arrays
+    
+*   Classes
+    
+
+6️⃣ Type Conversion & Casting
+-----------------------------
+
+### Widening (Automatic)
+
+Small → Large
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   int a = 5;  double b = a;   `
+
+### Narrowing (Manual)
+
+Large → Small
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   double d = 9.8;  int i = (int)d;   `
+
+7️⃣ Constructors
+----------------
+
+Constructor object initialize karta hai.
+
+### Rules
+
+*   Same name as class
+    
+*   No return type
+    
+
+### Types
+
+1.  Default Constructor
+    
+2.  Parameterized Constructor
+    
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   class Student {      int id;      String name;      Student() {          name = "Unknown";      }      Student(int i, String n) {          id = i;          name = n;      }  }   `
+
+8️⃣ this Keyword
+----------------
+
+*   Current object ka reference
+    
+*   Naming conflict resolve karta hai
+    
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   class Employee {      int id;      Employee(int id) {          this.id = id;      }  }   `
+
+9️⃣ Static Keyword
+------------------
+
+*   Class level variable/method
+    
+*   Object ke bina access
+    
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   class College {      static String name = "IPU";  }   `
+
+🔟 Strings in Java
+------------------
+
+### Key Features
+
+*   Object based
+    
+*   Immutable
+    
+*   Stored in **String Constant Pool (SCP)**
+    
+
+### Creation
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   String s1 = "Hello";          // SCP  String s2 = new String("Hi"); // Heap   `
+
+### Important Methods
+
+MethodUselength()String lengthcharAt()Character accessconcat()Join stringsequals()Compare contentsubstring()Part of string
+
+1️⃣1️⃣ Arrays
+-------------
+
+*   Same data type elements
+    
+*   Stored in contiguous memory
+    
+*   Object in Java (Heap memory)
+    
+
+### Types
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   int[] a = new int[5];           // 1D  int[][] m = new int[3][3];      // 2D   `
+
+1️⃣2️⃣ Garbage Collection
+-------------------------
+
+*   Automatic memory management
+    
+*   Unreachable objects destroy karta hai
+    
+
+### Key Points
+
+*   Runs in background
+    
+*   System.gc() request kar sakte ho
+    
+*   finalize() cleanup ke liye
+    
+
+### Advantages
+
+*   Memory efficient
+    
+*   No manual deletion
+    
+*   Prevents memory leaks
+    
+
+1️⃣3️⃣ Operators
+----------------
+
+### Types
+
+*   Arithmetic → + - \* / %
+    
+*   Relational → == != > <
+    
+*   Logical → && || !
+    
+*   Assignment → = += -=
+    
+*   Ternary → condition ? true : false
+    
+
+1️⃣4️⃣ Control Flow Statements
+------------------------------
+
+### Decision Making
+
+*   if
+    
+*   if-else
+    
+*   switch
+    
+
+### Looping
+
+*   for
+    
+*   while
+    
+*   do-while
+    
+*   for-each
+    
+
+### Jump
+
+*   break
+    
+*   continue
+    
+*   return
+    
+
+✅ Unit 1 Complete ✔️
+--------------------
