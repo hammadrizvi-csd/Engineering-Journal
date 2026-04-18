@@ -1,15 +1,40 @@
-# Unit 1: Introduction to DBMS 🗄️
+# 📘 DBMS Notes
 
-In this unit, I covered the fundamental concepts of how data is stored, managed, and retrieved.
+## 📌 About
 
-### Key Topics Covered:
-* **DBMS vs File System:** Why we moved from files to databases.
-* **3-Schema Architecture:** Physical, Logical, and View levels.
-* **Data Independence:** Logical and Physical independence.
-* **ER Model:** Entities, Attributes, and Relationships.
-
-### 📝 Resources
-* [Download My Handwritten Notes (PDF)](./Unit1_Handwritten_Notes.pdf)
+This repository contains structured notes for **Database Management Systems (DBMS)**.
 
 ---
-*Next Step: Starting Relational Model & SQL Queries.*
+
+## 📚 Topics Covered
+
+* SQL (Queries, Joins, Aggregates)
+* Normalization & Functional Dependency
+* Transactions & ACID Properties
+* Concurrency Control
+* Deadlocks & Recovery
+* Indexing (B-Tree, Hashing)
+
+---
+
+## 🎯 Purpose
+
+* Exam preparation
+* Quick revision
+* Interview concepts
+
+---
+
+## 🚀 How to Use
+
+* Start from Unit 1 → go sequentially
+* Revise summaries before exams
+
+---
+
+## 🛠 Tech Used
+
+* Markdown
+* GitHub
+
+---
